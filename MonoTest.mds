@@ -1,0 +1,16 @@
+<Combine name="MonoTest" fileversion="2.0">
+  <Configurations active="Debug">
+    <Configuration name="Debug" ctype="CombineConfiguration">
+      <Entry build="True" name="MonoTest" configuration="Debug" />
+    </Configuration>
+    <Configuration name="Release" ctype="CombineConfiguration">
+      <Entry build="True" name="MonoTest" configuration="Release" />
+    </Configuration>
+  </Configurations>
+  <StartMode startupentry="MonoTest" single="True">
+    <Execute type="None" entry="MonoTest" />
+  </StartMode>
+  <Entries>
+    <Entry filename="MonoTest/MonoTest.mdp" />
+  </Entries>
+</Combine>
